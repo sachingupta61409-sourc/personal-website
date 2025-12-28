@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachin Gupta | Data Analyst Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f8fafc;
+      color: #1f2933;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #020617;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+    nav h2 { color: #38bdf8; margin: 0; }
+    nav a {
+      color: #e5e7eb;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    nav a:hover { color: #38bdf8; }
+
+    header {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: #fff;
+      padding: 90px 20px;
+      text-align: center;
+      animation: fadeIn 1.2s ease;
+    }
+    header h1 { font-size: 40px; margin-bottom: 10px; }
+    header p { font-size: 18px; opacity: 0.9; }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 20px;
+      animation: fadeUp 1s ease;
+    }
+    h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #020617;
+    }
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+
+    .skills span {
+      display: inline-block;
+      background: #38bdf8;
+      color: #020617;
+      padding: 10px 18px;
+      margin: 8px;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    footer {
+      background: #020617;
+      color: #cbd5f5;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+    a { color: #38bdf8; text-decoration: none; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <h2>Sachin</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Sachin Gupta</h1>
+  <p>BCA Student | Aspiring Data Analyst</p>
+  <p>Excel • Power BI • SQL • Python</p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a BCA student at Babasaheb Bhimrao Ambedkar Bihar University (BRABU), Muzaffarpur.
+      I am passionate about data analysis and business intelligence. I have hands-on
+      experience with Excel, Power BI, Python, SQL, and MS Word. I have completed a
+      remote internship where I worked on real-world data analysis projects.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Excel</span><span>Power BI</span><span>SQL</span><span>Python</span>
+    <span>MS Word</span><span>C++</span><span>Java</span><span>Objective-C</span>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="card">
+    <h3>Data Analyst – Skills Up Remote Internship</h3>
+    <p><strong>Jan 2025 – Present</strong></p>
+    <ul>
+      <li>Analyzed real-world datasets using Excel & SQL</li>
+      <li>Created interactive dashboards in Power BI</li>
+      <li>Improved data accuracy through cleaning & validation</li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <h3>Bachelor of Computer Applications (BCA)</h3>
+    <p>Babasaheb Bhimrao Ambedkar Bihar University (BRABU), Muzaffarpur</p>
+    <p>2025 – 2028</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:sachingupta353540@gmail.com">sachingupta353540@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sachin-gupta-ba2901363" target="_blank">linkedin.com/in/sachin-gupta</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Sachin Gupta | Designed as Data Analyst Portfolio
+</footer>
+
+</body>
+</html>
